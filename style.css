@@ -1,0 +1,141 @@
+
+body{
+    
+    background-image: url(sss.jpg);
+    background-position-x: left;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+
+}
+nav {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5px;
+
+}
+
+nav div ul li{
+    
+    display: inline-flex;
+    list-style: none;
+     padding: 0px;
+    font-size: small;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: initial;
+    background-color: #0b132ef3;
+}
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+
+}
+
+nav ul li a:hover{
+    color: chartreuse;  
+    font-size: larger;
+
+
+}
+.sanju{
+    margin-left: 100px;
+    margin-top: 5px;
+    align-items: center;
+    margin-bottom: 100px;
+    
+
+}
+.san{
+    
+    font-size: 50px;
+    color: #b5b6b7e3;
+     text-shadow: 3px 3px 3px rgb(111, 21, 152) ;
+    /* background-color: #142636; */
+    width: 500px;
+}
+section{
+    display: flex;
+justify-content: space-around;
+    align-items: center;
+
+}
+.leftsection{
+    color: aliceblue;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    height: 300px;
+    border: 10px solid rgb(167, 82, 203);
+    overflow: scroll;
+    border-radius: 20px;
+}
+.rightsection{
+    margin-right: 70px;
+    margin-top: 0px;
+}
+section div img{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: 20px #0000007b solid;
+}
+div  img{
+    width: 20px;
+    
+}
+#element{
+background-color: #0f083f;
+    color: plum;
+}
+#skills{
+color: aliceblue;
+justify-content: space-between;
+margin-left: 40px;
+padding: 50px;
+margin-top: 0px;
+
+}
+#skills h1{
+box-shadow: 10px 10px 5px rgb(86, 7, 112);
+}
+section div ul li{
+margin: 20px;
+font-weight: 200px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+}      
+section div h1{
+max-width: min-content;
+align-items: center;
+font-size: 5rem;
+font-style: inherit;
+color: cornsilk;
+margin-top: 110px;
+background-color: #0f083f;
+width: 200px;
+inline-size: auto;
+margin-left: 220px;
+}
+section div ul li img{
+width: 100px;
+}
+
+#edu li{
+color: aliceblue;
+margin-left: 100px;
+}
+#edu h1{
+margin-top: 30px;
+margin-left: 300px;
+box-shadow: 10px 10px 5px rgb(88, 17, 169);
+}
+#numb{
+color: aliceblue;
+}
+#numb h1{
+box-shadow: 10px 10px 5px rgb(105, 0, 128);
+}
